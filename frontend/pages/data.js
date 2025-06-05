@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function Data() {
   const [users, setUsers] = useState([]);
-
+ 
   useEffect(() => {
     axios.get('http://localhost:8080/api/users').then(res => {
       setUsers(res.data);
