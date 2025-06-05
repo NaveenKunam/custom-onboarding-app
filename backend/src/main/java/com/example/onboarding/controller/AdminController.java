@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/config")
-public class AdminController {
+public class AdminController { 
     private final AdminService adminService;
 
     public AdminController(AdminService adminService) {
