@@ -26,6 +26,7 @@ A full-stack customizable onboarding platform that allows administrators to conf
 - Maven
 
 ### Frontend Setup
+```bash
 cd frontend
 npm install
 npm run dev
